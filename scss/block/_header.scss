@@ -1,0 +1,41 @@
+.head_main{
+    padding-top: 32px;
+}
+
+.head_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head_logo{
+    max-width: 140px;
+    max-height: 16px;
+}
+
+.head_item{
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .head_logo{
+        max-width: 203px;
+        max-height: 24px;
+    }
+    .head_menu{
+        display: none;
+    }
+    .head_item{
+        gap: 33px;
+        display: flex;
+    }
+    .head_item{
+        color: rgb(131, 136, 143);
+font-size: 12px;
+font-family: Barlow;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0.92px;
+text-transform: uppercase;
+    }
+}

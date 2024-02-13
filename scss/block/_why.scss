@@ -1,0 +1,141 @@
+.why_item {
+    text-align: center;
+}
+
+.why_title {
+    color: rgb(254, 252, 247);
+    font-family: Fraunces;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.why_text {
+    color: #D3D3D1;
+    font-family: Barlow;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 61px;
+}
+
+.why_block__title {
+    color: rgb(254, 252, 247);
+    font-family: Fraunces;
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 32px;
+    margin-top: 56px;
+    margin-bottom: 24px;
+}
+
+.why_block__text {
+    color: #D3D3D1;
+    font-family: Barlow;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.why_box {
+    border-radius: 8px;
+    background-color: rgb(14, 135, 132);
+    padding: 72px 34px 51px 34px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.why_work {
+    border-radius: 10px;
+    background-color: rgb(44, 52, 62);
+    padding-top: 64px;
+    margin-top: 120px;
+    height: 902px;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+}
+
+.why_block {
+    position: absolute;
+    top: 32%;
+    left: 24px;
+    right: 24px;
+}
+
+@media screen and (min-width:768px) {
+    .why_work {
+        height: 575px;
+        padding-left: 73px;
+        padding-right: 73px;
+    }
+
+    .why_block {
+        left: 58px;
+        right: 58px;
+    }
+
+    .why_box {
+        display: flex;
+        align-items: center;
+        padding: 41px 48px 41px 70px;
+        text-align: left;
+    }
+
+    .why_block__title {
+        margin-top: 0;
+    }
+
+    .why_about {
+        margin-left: 55px;
+    }
+
+    .why_block {
+        top: 45%;
+        left: 9%;
+        right: 9%;
+    }
+}
+
+@media screen and (min-width:1111px) {
+    .why_title {
+        margin-bottom: 32px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .why_text {
+        max-width: 540px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .why_text{
+        font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+    }
+
+    .why_block{
+        display: flex;
+        gap: 30px;
+    }
+
+.why_box{
+    flex-direction: column;
+    padding: 72px 30px 48px 30px;
+    text-align: center;
+}
+
+.why_about{
+    margin-left: 0;
+    margin-top: 56px;
+}
+
+.why_block {
+    top: 59%;
+    left: 84px;
+    right: 84px;
+}
+}

@@ -1,0 +1,132 @@
+.works {
+    margin-top: 650px;
+}
+
+.works_title {
+    color: rgb(131, 136, 143);
+    font-family: Fraunces;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.works_box {
+    text-align: center;
+}
+
+.works_num {
+    color: rgb(253, 214, 186);
+    font-family: Fraunces;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    margin-bottom: 24px;
+}
+
+.works_box__title {
+    color: rgb(51, 61, 75);
+    font-family: Fraunces;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.works_box__text {
+    color: rgb(51, 61, 75);
+    font-family: Barlow;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 56px;
+}
+
+.works_btn {
+    color: rgb(254, 252, 247);
+    font-family: Fraunces;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    border-radius: 6px;
+    background-color: rgb(14, 135, 132);
+    padding: 15px 31px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: none;
+}
+
+@media screen and (min-width:768px) {
+    .works {
+        margin-top: 380px;
+    }
+
+    .works_title {
+        text-align: left;
+    }
+
+    .works_head {
+        display: flex;
+        max-width: 540px;
+        height: 1px;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(53, 29, 12);
+        margin-bottom: 62px;
+    }
+
+    .works_line {
+        border: 2px solid rgb(14, 135, 132);
+        background-color: rgb(254, 252, 247);
+        display: block;
+        width: 31px;
+        height: 31px;
+        border-radius: 50%;
+    }
+
+    .works_block {
+        display: flex;
+        gap: 10px;
+
+    }
+
+    .works_box {
+        text-align: left;
+        max-width: 223px;
+       max-width: 100%;
+    }
+
+    .works_btn {
+        margin-left: 0;
+    }
+
+    .works_block{
+        gap: 37px;
+    }
+}
+
+@media screen and (min-width:1111px) {
+   .works{
+    margin-top: 300px;
+   }
+
+   .works_box__title{
+    font-size: 43px;
+font-weight: 900;
+line-height: 36px;
+   }
+
+   .works_box__text{
+    font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 42px;
+   }
+
+   .works_head{
+    max-width: 790px;
+   }
+
+}
